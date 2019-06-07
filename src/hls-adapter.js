@@ -2,7 +2,7 @@
 import Hlsjs from 'hls.js';
 import DefaultConfig from './default-config';
 import {type ErrorDetailsType, HlsJsErrorMap} from './errors';
-import {AudioTrack, BaseMediaSourceAdapter, Env, Error, EventType, TextTrack, Track, Utils, VideoTrack} from '@playkit-js/playkit-js';
+import {AudioTrack, BaseMediaSourceAdapter, Env, Error, EventType, TextTrack, Track, Utils, VideoTrack} from '@pakhshkit-js/pakhshkit-js';
 import pLoader from './jsonp-ploader';
 
 /**

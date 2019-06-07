@@ -1,8 +1,8 @@
 {
-  "name": "@playkit-js/playkit-js-hls",
+  "name": "@pakhshkit-js/pakhshkit-js-hls",
   "version": "1.13.1",
   "description": "",
-  "main": "dist/playkit-hls.js",
+  "main": "dist/pakhshkit-hls.js",
   "scripts": {
     "clean": "rm -rf ./dist",
     "prebuild": "npm run clean",
@@ -31,7 +31,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@playkit-js/playkit-js": "^0.39.1",
+    "@pakhshkit-js/pakhshkit-js": "^0.39.1",
     "babel-cli": "^6.18.0",
     "babel-core": "^6.18.2",
     "babel-eslint": "^7.1.1",
@@ -78,28 +78,28 @@
     "webpack-dev-server": "latest"
   },
   "peerDependencies": {
-    "@playkit-js/playkit-js": "^0.38.0",
+    "@pakhshkit-js/pakhshkit-js": "^0.38.0",
     "hls.js": "0.12.2"
   },
   "keywords": [
     "hls",
     "m3u8",
-    "kaltura",
+    "vidiun",
     "player",
-    "playkit-js",
-    "playkit-js-hls",
+    "pakhshkit-js",
+    "pakhshkit-js-hls",
     "html5 player"
   ],
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaltura/playkit-js-hls.git"
+    "url": "git+https://github.com/vidiun/pakhshkit-js-hls.git"
   },
   "bugs": {
-    "url": "https://github.com/kaltura/playkit-js-hls/issues"
+    "url": "https://github.com/vidiun/pakhshkit-js-hls/issues"
   },
-  "homepage": "https://github.com/kaltura/playkit-js-hls#readme",
+  "homepage": "https://github.com/vidiun/pakhshkit-js-hls#readme",
   "kcc": {
-    "name": "playkit-hls"
+    "name": "pakhshkit-hls"
   }
 }
