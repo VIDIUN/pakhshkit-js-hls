@@ -12,7 +12,7 @@ import {
   Track,
   Utils,
   VideoTrack
-} from 'playkit-js'
+} from 'pakhshkit-js'
 import pLoader from './jsonp-ploader'
 
 /**

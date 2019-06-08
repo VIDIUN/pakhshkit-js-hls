@@ -18,11 +18,11 @@ if (PROD) {
 
 module.exports = {
   context: __dirname + "/src",
-  entry: {"playkit-hls": "index.js"},
+  entry: {"pakhshkit-hls": "index.js"},
   output: {
     path: __dirname + "/dist",
     filename: '[name].js',
-    library: ["playkit", "hls"],
+    library: ["pakhshkit", "hls"],
     libraryTarget: "umd",
     devtoolModuleFilenameTemplate: "./hls/[resource-path]",
   },
@@ -63,11 +63,11 @@ module.exports = {
     ]
   },
   externals: {
-    "playkit-js": {
-      commonjs: "playkit-js",
-      commonjs2: "playkit-js",
-      amd: "playkit-js",
-      root: ["playkit", "core"]
+    "pakhshkit-js": {
+      commonjs: "pakhshkit-js",
+      commonjs2: "pakhshkit-js",
+      amd: "pakhshkit-js",
+      root: ["pakhshkit", "core"]
     },
     "hls.js": {
       commonjs: "hls.js",
