@@ -1,10 +1,10 @@
-# PlayKit JS HLS - [HLS.JS] Adapter for the [PlayKit JS Player]
+# PakhshKit JS HLS - [HLS.JS] Adapter for the [PakhshKit JS Player]
 
-[![Build Status](https://travis-ci.org/kaltura/playkit-js-hls.svg?branch=master)](https://travis-ci.org/kaltura/playkit-js-hls)
+[![Build Status](https://travis-ci.org/vidiun/pakhshkit-js-hls.svg?branch=master)](https://travis-ci.org/vidiun/pakhshkit-js-hls)
 
-PlayKit JS HLS adapter integrates [HLS.JS] with the [PlayKit JS Player].
+PakhshKit JS HLS adapter integrates [HLS.JS] with the [PakhshKit JS Player].
  
-PlayKit JS HLS is written in [ECMAScript6], statically analysed using [Flow] and transpiled in ECMAScript5 using [Babel].
+PakhshKit JS HLS is written in [ECMAScript6], statically analysed using [Flow] and transpiled in ECMAScript5 using [Babel].
 
 [HLS.JS]: https://github.com/video-dev/hls.js
 [HLS.JS API docs]: https://github.com/video-dev/hls.js/blob/master/docs/API.md
@@ -15,11 +15,11 @@ PlayKit JS HLS is written in [ECMAScript6], statically analysed using [Flow] and
 ## Getting Started
 
 ### Prerequisites
-The adapter requires [PlayKit JS Player] to be loaded first.
+The adapter requires [PakhshKit JS Player] to be loaded first.
 
 The adapter uses the [HLS.JS] javascript library.
 
-[Playkit JS Player]: https://github.com/kaltura/playkit-js
+[Pakhshkit JS Player]: https://github.com/vidiun/pakhshkit-js
 
 ### Installing
 
@@ -28,8 +28,8 @@ First, clone and run [yarn] to install dependencies:
 [yarn]: https://yarnpkg.com/lang/en/
 
 ```
-git clone https://github.com/kaltura/playkit-js-hls.git
-cd playkit-js-hls
+git clone https://github.com/vidiun/pakhshkit-js-hls.git
+cd pakhshkit-js-hls
 yarn install
 ```
 
@@ -46,13 +46,13 @@ yarn run build
 Finally, add the bundle as a script tag in your page, and initialize the player
 
 ```html
-<script type="text/javascript" src="/PATH/TO/FILE/playkit.js"></script>
-<script type="text/javascript" src="/PATH/TO/FILE/playkit-hls.js"></script>
+<script type="text/javascript" src="/PATH/TO/FILE/pakhshkit.js"></script>
+<script type="text/javascript" src="/PATH/TO/FILE/pakhshkit-hls.js"></script>
 <div id="player-placeholder"" style="height:360px; width:640px">
 <script type="text/javascript">
 var playerContainer = document.querySelector("#player-placeholder");
 var config = {...};
-var player = playkit.core.loadPlayer(config);
+var player = pakhshkit.core.loadPlayer(config);
 playerContainer.appendChild(player.getView());
 player.play();
 </script>
@@ -60,7 +60,7 @@ player.play();
 
 ## Configuration
 
-[HLS.JS] configuration options, documented @[HLS.JS API docs], can be passed via the [PlayKit JS Player] config.
+[HLS.JS] configuration options, documented @[HLS.JS API docs], can be passed via the [PakhshKit JS Player] config.
 
 The configuration is exposed via the playback section:
 
@@ -113,7 +113,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/kaltura/playkit-js-hls/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/vidiun/pakhshkit-js-hls/tags). 
 
 ## License
 

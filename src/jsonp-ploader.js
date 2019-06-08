@@ -1,5 +1,5 @@
 //@flow
-import {Utils} from 'playkit-js'
+import {Utils} from 'pakhshkit-js'
 import Hlsjs from 'hls.js'
 
 /**
